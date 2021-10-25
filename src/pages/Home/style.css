@@ -1,0 +1,7 @@
+.link{
+    display: flex;
+    font-weight: 700;
+    color: aliceblue;
+    text-decoration: none;
+    width: 200px;
+}
