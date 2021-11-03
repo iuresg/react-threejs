@@ -43,11 +43,13 @@ export default function Home() {
             <Stars />
 
             {/* Use html in canvas */}
+            
             <Html center position={[-15, 1, -1]}>
                 <Router history={history}>
                     <Link className={"link"} to={"/simple-plane"}>IR PARA SIMPLE PLANE</Link>
                 </Router>
             </Html>
+
             {/* Objects Components */}
 
             <Components.Text3D fontSize={1} text={"Bem vindo"} color={"white"} position={[0, 1, 0]} />
