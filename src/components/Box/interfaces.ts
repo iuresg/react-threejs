@@ -1,5 +1,5 @@
 export interface BoxProps {
-    position: number[],
+    position: any,
     frame: number,
     velocity?:number
 }
