@@ -15,7 +15,8 @@ export default function Routes() {
         <Router history={history}>
             <Switch>
                 <Route path="/" exact component={Pages.Home} />
-                <Route path="/simple-plane" component={Pages.Plane} />
+                <Route path="/simple-plane" component={Pages.SimplePlane} />
+                <Route path="/minecraft" component={Pages.Minecraft} />
             </Switch>
         </Router>
     )

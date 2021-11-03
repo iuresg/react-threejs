@@ -43,17 +43,18 @@ export default function Home() {
             <Stars />
 
             {/* Use html in canvas */}
-            <Html center position={[-15, 1, -1]} >
+            <Html center position={[-15, 1, -1]}>
                 <Router history={history}>
-                    <Link className={"link"} to={"/simple-plane"}>IR PARA SIMPLE PLAN</Link>
+                    <Link className={"link"} to={"/simple-plane"}>IR PARA SIMPLE PLANE</Link>
                 </Router>
             </Html>
             {/* Objects Components */}
+
             <Components.Text3D fontSize={1} text={"Bem vindo"} color={"white"} position={[0, 1, 0]} />
             <Components.Text3D fontSize={0.5} text={"Ainda não está legal este texto 3d, mas irei melhora-lo em breve!"} color={"white"} position={[0, 0, -2]} />
 
             {/* Controls */}
-            <OrbitControls enablePan={true} enableZoom={true} enableRotate={true} addEventListener={undefined} hasEventListener={undefined} removeEventListener={undefined} dispatchEvent={undefined} />
+            <OrbitControls enablePan={true} enableZoom={true} enableRotate={true}  />
         </Canvas>
     </>
     )

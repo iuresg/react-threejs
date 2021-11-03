@@ -5,5 +5,5 @@ export interface TextProps {
     anchorX?: number | "center" | "left" | "right" | undefined;
     anchorY?: number | "bottom" | "top" | "middle" | "top-baseline" | "bottom-baseline" | undefined;
     fontSize:number,
-    position?: number[],
+    position?: any,
 }

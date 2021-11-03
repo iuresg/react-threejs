@@ -1,10 +1,10 @@
 import Box from './Box'
-import Plane from './Plane'
+import Floor0 from './Floor0'
 import Text3D from './Text3D'
 
 const Components = {
     Box,
-    Plane,
+    Floor0,
     Text3D
 }
 
