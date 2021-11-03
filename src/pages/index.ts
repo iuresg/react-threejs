@@ -7,4 +7,4 @@ const pages = {
     Minecraft
 }
 
-export default pages;
+export default pages
